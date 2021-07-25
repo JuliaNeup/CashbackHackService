@@ -41,23 +41,12 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldBeCalculatedIfThereNoRemainder() {
-
-        int amount = 3000;
-
-        int actual = service.remain(amount);
-        int expected = 1000;
-        assertEquals(actual, expected);
-
-    }
-
-    @Test
     public void shouldCalculateIfAmountIncorrect() {
 
         int amount = -100;
 
         int actual = service.remain(amount);
-        int expected = 0;
+        int expected = 1100;
 
         assertEquals(actual, expected);
 
