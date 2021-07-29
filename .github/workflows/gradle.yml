@@ -7,12 +7,12 @@ on:
   push:
     branches:
       - master
-      - Test NG
+      - TestNG
       - junit4
   pull_request:
     branches:
       - master
-        - Test NG
+        - TestNG
         - junit4
 jobs:
   build:
