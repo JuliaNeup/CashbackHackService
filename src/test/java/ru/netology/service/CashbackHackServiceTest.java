@@ -2,7 +2,7 @@ package ru.netology.service;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;https://github.com/JuliaNeup/CashbackHackService/blob/junit4/src/test/java/ru/netology/service/CashbackHackServiceTest.java
 
 public class CashbackHackServiceTest {
     CashbackHackService service = new CashbackHackService();
@@ -40,15 +40,4 @@ public class CashbackHackServiceTest {
 
     }
 
-    @Test
-    public void shouldCalculateIfAmountIncorrect() {
-
-        int amount = -100;
-
-        int actual = service.remain(amount);
-        int expected = 1100;
-
-        assertEquals(actual, expected);
-
-    }
 }
