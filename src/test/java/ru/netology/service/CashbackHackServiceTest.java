@@ -2,7 +2,7 @@ package ru.netology.service;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;https://github.com/JuliaNeup/CashbackHackService/blob/junit4/src/test/java/ru/netology/service/CashbackHackServiceTest.java
+import static org.junit.Assert.assertEquals;
 
 public class CashbackHackServiceTest {
     CashbackHackService service = new CashbackHackService();
